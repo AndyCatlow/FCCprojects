@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+h1,
+h2 {
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+figcaption {
+  padding: 0 3em;
+  font-size: 1.2rem;
+}
+
+#tribute-info {
+  padding: 2em;
+}
+main {
+  background-image: linear-gradient(#000, #ddd, #fff);
+}
